@@ -149,3 +149,38 @@ a {
   margin-top: 0.25rem;
   font-size: 0.85rem;
 }
+.memberLink {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.memberLink:hover,
+.memberLink:focus-visible {
+  color: #14532d;
+}
+.memberItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+  margin-bottom: 0.35rem;
+}
+ 
+.memberThumb {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+ 
+.memberLink {
+  text-decoration: underline;
+  cursor: pointer;
+}
+ 
+.memberLink:hover,
+.memberLink:focus-visible {
+  color: #14532d;
+}
+ 
